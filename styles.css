@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(251,197,63);
+    background: radial-gradient(circle, rgba(251,197,63,1) 11%, rgba(252,70,90,1) 60%, rgba(199,4,199,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 75vh;
+    width:35vw; 
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(238,174,202,1) 70%, rgba(245,118,166,1) 100%); 
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 29px rgba(0, 0, 0, 0.4)  ; 
+	-webkit-box-shadow: 5px 5px 29px rgba(0, 0, 0, 0.4)  ; 
+	-moz-box-shadow: 5px 5px 29px rgba(0, 0, 0, 0.4)  ; 
+}
+
+button {
+    height: 85px;
+    width: 120px; 
+    font-size: 60px;
+    background: white; 
+    border-style: none;
+
+}
